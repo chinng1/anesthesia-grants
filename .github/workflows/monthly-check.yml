@@ -1,0 +1,29 @@
+name: Monthly grant check
+
+# Checks every grant link and flags deadlines that have passed or are coming up,
+# then opens a GitHub issue with the report (GitHub emails you about new issues).
+# It never edits grants.json.
+
+on:
+  schedule:
+    - cron: '0 15 1 * *'   # 1st of every month, 15:00 UTC (7-8 am Pacific)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run check
+        run: python check_grants.py --out report.md | tail -1
+      - name: Open issue with the report
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Grant check — $(date -u +'%B %Y')" --body-file report.md

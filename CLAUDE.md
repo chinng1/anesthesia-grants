@@ -124,3 +124,7 @@ Live site: https://chinng1.github.io/anesthesia-grants/ (repo `chinng1/anesthesi
 - Every push to `main` runs `.github/workflows/pages.yml`, which runs `build_site.py` (embeds `grants.json` into `grants tool 2.0.html` → `_site/index.html`) and deploys it. Live in ~1 minute.
 - To update the site: edit `grants.json`, commit, push. No need to re-embed by hand for the website (still re-embed if you want the emailable HTML file current).
 - Test locally: `python3 build_site.py` then open `_site/index.html`. `_site/` is gitignored.
+
+## Monthly check
+
+`.github/workflows/monthly-check.yml` runs `check_grants.py` on the 1st of each month and opens a GitHub issue with the report: broken links (404s, dead domains), links that block bots (usually fine), deadlines that have passed, deadlines under 6 weeks that aren't marked `"soon"`, and `"soon"` entries that no longer are. It never edits `grants.json`; work through the issue, fix the entries, bump `_meta.version`/`updated`, push, and close the issue. Run it locally with `python3 check_grants.py` (add `--no-links` for a fast deadline-only pass). Run it on demand: `gh workflow run monthly-check.yml`.
