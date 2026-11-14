@@ -116,3 +116,11 @@ Category filter and topic filter are auto-populated from JSON at runtime.
 - NIH program announcement numbers (PA/PAR) rotate annually — use the canonical NIGMS/NIH institute pages rather than specific PA file URLs.
 - RWJF program pages sometimes 404 when grants close; fall back to `rwjf.org/en/grants/active-programs.html`.
 - Doris Duke: use `dorisduke.org` (not `ddcf.org` — that domain has an expired SSL cert as of 2026-05-26).
+
+## Publishing (GitHub Pages)
+
+Live site: https://chinng1.github.io/anesthesia-grants/ (repo `chinng1/anesthesia-grants`, public).
+
+- Every push to `main` runs `.github/workflows/pages.yml`, which runs `build_site.py` (embeds `grants.json` into `grants tool 2.0.html` → `_site/index.html`) and deploys it. Live in ~1 minute.
+- To update the site: edit `grants.json`, commit, push. No need to re-embed by hand for the website (still re-embed if you want the emailable HTML file current).
+- Test locally: `python3 build_site.py` then open `_site/index.html`. `_site/` is gitignored.
