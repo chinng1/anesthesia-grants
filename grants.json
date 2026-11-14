@@ -2,9 +2,9 @@
   "_meta": {
     "title": "Early Career Medical Research Grants Database",
     "description": "Grant opportunities for medical residents, fellows, postdocs, and early faculty. Broad coverage across specialties with emphasis on anesthesia.",
-    "version": "2.2.0",
-    "updated": "2026-05-26",
-    "notes": "Deadlines and amounts change annually — verify with each funder before applying. v2.0: removed non-US programs; added UCSF RAP grants. v2.1.0 (2026-05-26): added ABA/FAER REG, FAER TIG, PhRMA Faculty Starter, Doris Duke CSDA, Parker B. Francis. v2.2.0 (2026-05-26): renamed 'Graduate Medical Education' → 'Medical Education Research'; added ABMS REF Grant, SAEM ERTG, AAMC GEA National Grant.",
+    "version": "2.3.0",
+    "updated": "2026-11-13",
+    "notes": "Deadlines and amounts change annually — verify with each funder before applying. v2.0: removed non-US programs; added UCSF RAP grants. v2.1.0 (2026-05-26): added ABA/FAER REG, FAER TIG, PhRMA Faculty Starter, Doris Duke CSDA, Parker B. Francis. v2.2.0 (2026-05-26): renamed 'Graduate Medical Education' → 'Medical Education Research'; added ABMS REF Grant, SAEM ERTG, AAMC GEA National Grant. v2.3.0 (2026-11-13): monthly check fixes: 14 URLs updated (Lilly IIR, FAER RFG/MRTG, Merck MISP, Takeda, UCSF Catalyst, NIBIB, etc.); 12 passed deadlines updated to next cycle; 10 upcoming deadlines marked soon; removed 6 discontinued: epa-star-fellowship (EPA ended STAR fellowships in 2015); asf-postdoc (no longer in ASF current funding list); aahpm-research-grant (AAHPM no longer offers its own research grant); ge-healthcare-iir (no public investigator-initiated program page); nih-mosaic-k99 (NIGMS MOSAIC pages removed; program not current); nih-diversity-supplement (NIGMS page removed; PA-23-189 expired May 2026).",
     "schema_version": "1"
   },
   "schema": {
@@ -246,7 +246,7 @@
       ],
       "eligibility": "Early-career cardiovascular anesthesiologist; limited or no prior independent funding",
       "deadline": "LOI Nov 14; Full app Feb 9 (annual)",
-      "deadline_type": "ok",
+      "deadline_type": "soon",
       "loi_required": "yes",
       "url": "https://scahq.org/fellowships-and-career-development/funding-opportunities/sca-research-grants/",
       "citizenship": "check",
@@ -276,7 +276,7 @@
       ],
       "eligibility": "Early-career cardiovascular anesthesiologist",
       "deadline": "LOI Nov 14; Full app Feb 9 (annual)",
-      "deadline_type": "ok",
+      "deadline_type": "soon",
       "loi_required": "yes",
       "url": "https://scahq.org/fellowships-and-career-development/funding-opportunities/sca-research-grants/",
       "citizenship": "check",
@@ -307,7 +307,7 @@
       ],
       "eligibility": "Residents and fellows actively in training programs",
       "deadline": "LOI Nov 14; Full app Feb 9 (annual)",
-      "deadline_type": "ok",
+      "deadline_type": "soon",
       "loi_required": "yes",
       "url": "https://scahq.org/fellowships-and-career-development/funding-opportunities/sca-research-grants/",
       "citizenship": "check",
@@ -338,7 +338,7 @@
       ],
       "eligibility": "Cardiovascular anesthesiologist; strong preliminary data expected",
       "deadline": "LOI Nov 14; Full app Feb 9 (annual)",
-      "deadline_type": "ok",
+      "deadline_type": "soon",
       "loi_required": "yes",
       "url": "https://scahq.org/fellowships-and-career-development/funding-opportunities/sca-research-grants/",
       "citizenship": "check",
@@ -527,7 +527,7 @@
       ],
       "eligibility": "Doctoral degree holder; US citizen or permanent resident; in an eligible postdoctoral position",
       "deadline": "Apr 8 / Aug 8 / Dec 8 (varies by Institute)",
-      "deadline_type": "ok",
+      "deadline_type": "soon",
       "loi_required": "no",
       "url": "https://grants.nih.gov/funding/activity-codes/F32",
       "citizenship": "us-only",
@@ -559,7 +559,7 @@
       ],
       "eligibility": "Doctoral-level researcher; US citizen or PR; ≥50% research effort; substantial educational debt",
       "deadline": "Nov 15 (annual)",
-      "deadline_type": "ok",
+      "deadline_type": "soon",
       "loi_required": "no",
       "url": "https://www.lrp.nih.gov/",
       "citizenship": "us-only",
@@ -589,7 +589,7 @@
       ],
       "eligibility": "MD/PhD/DO/DVM/DDS; within 6 years of first faculty appointment; no concurrent major awards",
       "deadline": "Dec 1, 2026",
-      "deadline_type": "ok",
+      "deadline_type": "soon",
       "loi_required": "check",
       "url": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/career-development-award",
       "citizenship": "open",
@@ -807,8 +807,8 @@
         "Broad Neurology"
       ],
       "eligibility": "Within 5 years of completing residency or PhD; 7 years for 3-year awards",
-      "deadline": "Application cycle Jun 2 – Sep 9, 2026",
-      "deadline_type": "ok",
+      "deadline": "Varies by disease-specific RFP (several 2027 calls closed Oct 8; epilepsy grant Jan 7, 2027)",
+      "deadline_type": "unknown",
       "loi_required": "check",
       "url": "https://www.americanbrainfoundation.org/ngrg/",
       "citizenship": "open",
@@ -838,7 +838,7 @@
       ],
       "eligibility": "Assistant Professor at US non-profit institution; <4 years in that rank; nominated by department",
       "deadline": "Dec 1 (reference letters); full app Jan (annual)",
-      "deadline_type": "ok",
+      "deadline_type": "soon",
       "loi_required": "no",
       "url": "https://www.mcknight.org/programs/the-mcknight-endowment-fund-for-neuroscience/scholar-awards/",
       "citizenship": "check",
@@ -868,8 +868,8 @@
         "Maternal/Child Health"
       ],
       "eligibility": "Early-career faculty within 3 years of first independent appointment; birth defects/prematurity focus",
-      "deadline": "Portal closes May 29, 2026; awards Oct 2026",
-      "deadline_type": "soon",
+      "deadline": "Annual, portal closes late May (May 29 last cycle); 2027 call not yet posted",
+      "deadline_type": "unknown",
       "loi_required": "check",
       "url": "https://www.marchofdimes.org/our-work/research/grants-awards",
       "citizenship": "check",
@@ -961,8 +961,8 @@
         "Translational"
       ],
       "eligibility": "Early-career biomedical scientist at a designated Hartwell Foundation institution; research must have potential benefit to children",
-      "deadline": "May 26, 2026",
-      "deadline_type": "ok",
+      "deadline": "2027 cycle TBA (institution must be invited; nominations typically due late May)",
+      "deadline_type": "unknown",
       "loi_required": "no",
       "url": "https://thehartwellfoundation.com/Individual_Biomedical_Research_Awards.shtml",
       "citizenship": "check",
@@ -995,7 +995,7 @@
       ],
       "eligibility": "Mid-career health professional (MD, PhD, or equivalent); strong leadership potential; health policy interest",
       "deadline": "Dec 1 (annual)",
-      "deadline_type": "ok",
+      "deadline_type": "soon",
       "loi_required": "no",
       "url": "https://www.rwjf.org/en/grants.html",
       "citizenship": "us-only",
@@ -1216,37 +1216,6 @@
       "specialty_restricted": false
     },
     {
-      "id": "asf-postdoc",
-      "title": "Autism Science Foundation Postdoctoral Fellowship",
-      "org": "Autism Science Foundation",
-      "org_abbrev": "ASF",
-      "category": "Autism",
-      "amount_min": 100000,
-      "amount_max": 100000,
-      "amount_label": "$50,000/yr",
-      "duration": "2 years",
-      "stages": [
-        "postdoc"
-      ],
-      "stage_notes": "Recent PhD; autism-focused research",
-      "topics": [
-        "autism",
-        "neuroscience"
-      ],
-      "topic_tags": [
-        "Autism Spectrum Disorder",
-        "ASD Research",
-        "Postdoctoral Training"
-      ],
-      "eligibility": "Postdoctoral researcher with recent PhD; research must focus on autism spectrum disorder",
-      "deadline": "Dec 15 (annual)",
-      "deadline_type": "ok",
-      "loi_required": "no",
-      "url": "https://www.autismsciencefoundation.org/research-grants/",
-      "citizenship": "open",
-      "specialty_restricted": false
-    },
-    {
       "id": "nih-f33",
       "title": "NIH F33: Senior Fellowship (Retraining)",
       "org": "National Institutes of Health",
@@ -1399,10 +1368,10 @@
         "Fellow Research"
       ],
       "eligibility": "Anesthesiology residents or fellows in clinical training; US citizen/PR/H-1B (verify FAER rules)",
-      "deadline": "FAER grant cycles (verify current spring/fall dates)",
-      "deadline_type": "unknown",
+      "deadline": "Feb 15 and Aug 15 (Spring 2027 cycle opens in December; due Feb 15, 2027)",
+      "deadline_type": "ok",
       "loi_required": "check",
-      "url": "https://www.asahq.org/faer/grants/what-we-fund/research-fellowship-grants",
+      "url": "https://www.asahq.org/faer/grants/what-we-fund/research-fellowship-grant",
       "citizenship": "check",
       "specialty_restricted": true
     },
@@ -1429,10 +1398,10 @@
         "Early Faculty"
       ],
       "eligibility": "Early-career anesthesiology faculty; typically within 10 years of first faculty appointment; mentored plan required",
-      "deadline": "FAER cycles (verify current LOI/full application dates)",
-      "deadline_type": "unknown",
+      "deadline": "Feb 15 and Aug 15 (Spring 2027 cycle opens in December; due Feb 15, 2027)",
+      "deadline_type": "ok",
       "loi_required": "check",
-      "url": "https://www.asahq.org/faer/grants/what-we-fund/mentored-research-training-grants",
+      "url": "https://www.asahq.org/faer/grants/what-we-fund/mentored-research-training-grant",
       "citizenship": "check",
       "specialty_restricted": true
     },
@@ -1492,8 +1461,8 @@
         "Anesthesia"
       ],
       "eligibility": "Investigators proposing patient-safety research relevant to anesthesia and perioperative care; strong scientific merit required",
-      "deadline": "LOI Feb 15, 2026; verify next cycle at APSF",
-      "deadline_type": "ok",
+      "deadline": "LOI typically Feb 15 (full proposal Aug 15, by invitation); verify 2027 dates at APSF",
+      "deadline_type": "unknown",
       "loi_required": "yes",
       "url": "https://www.apsf.org/grants-and-awards/investigator-initiated-research-iir-grants/",
       "citizenship": "check",
@@ -1653,8 +1622,8 @@
         "Clinician-Scientist"
       ],
       "eligibility": "Early-stage physician or clinically trained investigators pursuing aging research; strong preliminary data expected",
-      "deadline": "Est. June 13, 2026 for 2027 funding cycle",
-      "deadline_type": "ok",
+      "deadline": "Annual, mid-November (2027 cycle closed November 10; next call ~fall 2027)",
+      "deadline_type": "unknown",
       "loi_required": "check",
       "url": "https://www.afar.org/grants/beeson",
       "citizenship": "open",
@@ -1716,8 +1685,8 @@
         "Translational Oncology"
       ],
       "eligibility": "Physician-scientists with MD/MD-PhD/DO or equivalent; early-career rules per current AACR RFA; cancer-related research",
-      "deadline": "LOI Apr 14, 2026 (verify annually at AACR)",
-      "deadline_type": "ok",
+      "deadline": "Annual: LOI ~mid-April, full app ~August (2027 call not yet posted)",
+      "deadline_type": "unknown",
       "loi_required": "yes",
       "url": "https://www.aacr.org/grants/aacr-astrazeneca-career-development-award-physician-scientists-jose-baselga/",
       "citizenship": "open",
@@ -2243,7 +2212,7 @@
         "Young Researcher"
       ],
       "eligibility": "Researchers age 35 or younger (doctoral students, residents, interns, clinical fellows, postdocs); human immunology, vaccine development, or immunotherapy research",
-      "deadline": "Jun 22, 2026",
+      "deadline": "Applications open April 2027 (2027 cycle)",
       "deadline_type": "ok",
       "loi_required": "check",
       "url": "https://www.michelsonmedicalresearch.org/michelson-prizes-next-generation",
@@ -2311,7 +2280,7 @@
       "deadline": "Rolling submissions via EngageZone portal",
       "deadline_type": "ok",
       "loi_required": "yes",
-      "url": "https://www.merck.com/research/clinical-trials/investigator-initiated-research/",
+      "url": "https://www.misp-investigator-studies.com/",
       "citizenship": "open",
       "specialty_restricted": false
     },
@@ -2439,10 +2408,10 @@
         "Mentored Fellowship"
       ],
       "eligibility": "Postdocs, clinical fellows, and early-career cancer investigators; interventional oncology or lung cancer research focus",
-      "deadline": "Check AACR website for current deadline",
+      "deadline": "Check AACR current funding opportunities (program renamed several times; lung-cancer focus)",
       "deadline_type": "unknown",
       "loi_required": "check",
-      "url": "https://www.aacr.org/grants/aacr-johnson-johnson-interventional-oncology-start-grants/",
+      "url": "https://www.aacr.org/professionals/research-funding/current-funding-opportunities/",
       "citizenship": "open",
       "specialty_restricted": false
     },
@@ -2543,7 +2512,7 @@
       "deadline": "Rolling submissions (via lillyinvestigatorresearch.com)",
       "deadline_type": "ok",
       "loi_required": "yes",
-      "url": "https://www.lilly.com/discovery/research-collaborations/investigator-initiated-research",
+      "url": "https://www.lillyinvestigatorresearch.com/",
       "citizenship": "open",
       "specialty_restricted": false
     },
@@ -2911,7 +2880,7 @@
       "deadline": "Fall cycle only — verify next call at rap.ucsf.edu",
       "deadline_type": "unknown",
       "loi_required": "check",
-      "url": "https://rap.ucsf.edu/catalyst-awards-for-the-development-of-diagnostics-devices-therapeutics-and-digital-computational-health",
+      "url": "https://rap.ucsf.edu/catalyst-accelerator-awards-for-the-development-of-therapeutics-diagnostics-medical-devices-and-digital-computational-health",
       "citizenship": "check",
       "specialty_restricted": false
     },
@@ -3226,10 +3195,10 @@
         "GME Transformation"
       ],
       "eligibility": "GME programs and institutions; projects affecting how residents/fellows are trained; team-based applications",
-      "deadline": "Periodic RFAs (verify at macyfoundation.org)",
+      "deadline": "Not listed on the redesigned Macy site; verify the program is still offered",
       "deadline_type": "unknown",
       "loi_required": "check",
-      "url": "https://macyfoundation.org/our-grantees/catalyst-awards",
+      "url": "https://macyfoundation.org/grant-programs/",
       "citizenship": "check",
       "specialty_restricted": false
     },
@@ -3257,8 +3226,8 @@
         "Clinician-Educator"
       ],
       "eligibility": "Faculty at accredited US nursing or medical schools; assistant or early associate professor (3-8 years); dean nomination required (one per institution); US citizen or permanent resident.",
-      "deadline": "July 30, 2026 (for 2027 scholars)",
-      "deadline_type": "ok",
+      "deadline": "Annual: portal opens ~May, due ~late July (2027 cohort closed; next call ~May 2027)",
+      "deadline_type": "unknown",
       "loi_required": "check",
       "url": "https://macyfoundation.org/macy-scholars/apply",
       "citizenship": "check",
@@ -3353,10 +3322,10 @@
         "NIBIB"
       ],
       "eligibility": "New or early-stage investigators (NIH ESI criteria); biomedical engineering or imaging technology research; no significant prior R01-equivalent funding",
-      "deadline": "Standard R21 due dates (verify current NOFO at NIBIB.nih.gov)",
-      "deadline_type": "ok",
+      "deadline": "Last NOFO (PA-25-169) expired; check NIBIB for the reissued announcement",
+      "deadline_type": "unknown",
       "loi_required": "no",
-      "url": "https://www.nibib.nih.gov/research-funding/trailblazer-award",
+      "url": "https://www.nibib.nih.gov/funding/trailblazer-r21-awards",
       "citizenship": "us-only",
       "specialty_restricted": false
     },
@@ -3462,40 +3431,6 @@
       "specialty_restricted": false
     },
     {
-      "id": "ge-healthcare-iir",
-      "title": "GE HealthCare Investigator-Initiated Research / Research Collaboration",
-      "org": "GE HealthCare",
-      "org_abbrev": "GE HealthCare",
-      "category": "Device — Investigator-Initiated",
-      "amount_min": null,
-      "amount_max": null,
-      "amount_label": "Funding/equipment/data support (varies)",
-      "duration": "Study-specific",
-      "stages": [
-        "fellow",
-        "early-faculty",
-        "mid-career"
-      ],
-      "stage_notes": "Imaging, monitoring, or AI/informatics product alignment required",
-      "topics": [
-        "tech-ai",
-        "cardiovascular"
-      ],
-      "topic_tags": [
-        "Medical Imaging",
-        "AI/Informatics",
-        "Patient Monitoring",
-        "Device Research"
-      ],
-      "eligibility": "Investigators and institutions; research must align with GE HealthCare imaging, monitoring, or informatics product portfolio",
-      "deadline": "Rolling/collaboration-based (verify at gehealthcare.com)",
-      "deadline_type": "ok",
-      "loi_required": "yes",
-      "url": "https://www.gehealthcare.com/insights/research",
-      "citizenship": "open",
-      "specialty_restricted": false
-    },
-    {
       "id": "gilead-research-scholars",
       "title": "Gilead Research Scholars Program",
       "org": "Gilead Sciences",
@@ -3556,7 +3491,7 @@
       "deadline": "Rolling/RFP-based (verify at Takeda IIR portal)",
       "deadline_type": "ok",
       "loi_required": "yes",
-      "url": "https://www.takeda.com/what-we-do/research-and-development/partnering-with-us/investigator-initiated-research/",
+      "url": "https://www.takeda.com/science/research-and-development/partnerships/iir/",
       "citizenship": "open",
       "specialty_restricted": false
     },
@@ -3685,7 +3620,7 @@
         "Critical Care"
       ],
       "eligibility": "Active training or within 5–7 years of fellowship/residency. AAST membership required.",
-      "deadline": "Applications open Nov 2025; close Feb 2, 2026 (verify annually)",
+      "deadline": "Feb 1, 2027 (applications open now)",
       "deadline_type": "ok",
       "loi_required": "check",
       "url": "https://www.aast.org/professional-development/scholarships.html",
@@ -3782,8 +3717,8 @@
         "Maternal Health"
       ],
       "eligibility": "Fellows, postdocs, or early-career faculty; anesthesia, OB, cardiology, or basic science with preeclampsia focus.",
-      "deadline": "May 28, 2026 (verify annually)",
-      "deadline_type": "soon",
+      "deadline": "Annual, late May (May 27 last cycle); 2027 call not yet posted",
+      "deadline_type": "unknown",
       "loi_required": "no",
       "url": "https://www.preeclampsia.org/research-funding",
       "citizenship": "open",
@@ -3919,7 +3854,7 @@
       "deadline": "Fall annually (verify current year)",
       "deadline_type": "ok",
       "loi_required": "no",
-      "url": "https://www.aasurg.org/research/funding-opportunities/",
+      "url": "https://www.aasurg.org/aas-aasf-trf-awards/",
       "citizenship": "open",
       "specialty_restricted": false
     },
@@ -4011,10 +3946,10 @@
         "Early Career Award"
       ],
       "eligibility": "Early-career faculty who have recently established independent positions; broad pain research.",
-      "deadline": "December annually (Dec 10, 2025 for current cycle)",
-      "deadline_type": "unknown",
+      "deadline": "Dec 9, 2026 (2027 award; applications open now)",
+      "deadline_type": "soon",
       "loi_required": "yes",
-      "url": "https://www.usasp.org/rita-allen-award-in-pain",
+      "url": "https://www.usasp.org/rita-allen-award",
       "citizenship": "us-only",
       "specialty_restricted": false
     },
@@ -4240,39 +4175,6 @@
       "deadline_type": "unknown",
       "loi_required": "no",
       "url": "https://americandeliriumsociety.org/awards",
-      "citizenship": "us-only",
-      "specialty_restricted": false
-    },
-    {
-      "id": "aahpm-research-grant",
-      "title": "AAHPM Foundation Research Grant",
-      "org": "American Academy of Hospice and Palliative Medicine Foundation",
-      "org_abbrev": "AAHPM",
-      "category": "Palliative Care",
-      "amount_min": 50000,
-      "amount_max": 100000,
-      "amount_label": "Up to $100,000",
-      "duration": "1–2 years",
-      "stages": [
-        "fellow",
-        "early-faculty"
-      ],
-      "stage_notes": "Supports palliative care and hospice research including symptom management and opioid stewardship.",
-      "topics": [
-        "palliative-care",
-        "pain"
-      ],
-      "topic_tags": [
-        "Palliative Care",
-        "Hospice",
-        "Symptom Management",
-        "Opioid"
-      ],
-      "eligibility": "Investigators in palliative medicine or with palliative care research focus; AAHPM membership encouraged.",
-      "deadline": "Check AAHPM website; typically fall",
-      "deadline_type": "ok",
-      "loi_required": "check",
-      "url": "https://www.aahpm.org/education/research-grants",
       "citizenship": "us-only",
       "specialty_restricted": false
     },
@@ -4503,73 +4405,6 @@
       "specialty_restricted": false
     },
     {
-      "id": "nih-mosaic-k99",
-      "title": "NIH MOSAIC K99/R00 for Diverse Scientists",
-      "org": "National Institutes of Health",
-      "org_abbrev": "NIH",
-      "category": "Diversity & Inclusion",
-      "amount_min": 90000,
-      "amount_max": 249000,
-      "amount_label": "$90K/yr (K99); up to $249K/yr (R00)",
-      "duration": "Up to 5 years (1–2 yr K99 + up to 3 yr R00)",
-      "stages": [
-        "postdoc",
-        "early-faculty"
-      ],
-      "stage_notes": "Part of NIH UNITE initiative; same structure as standard K99/R00 but targeted to diverse scientists.",
-      "topics": [
-        "diversity",
-        "nih"
-      ],
-      "topic_tags": [
-        "NIH Diversity Award",
-        "K99/R00",
-        "Career Transition",
-        "URM Scientist"
-      ],
-      "eligibility": "Postdoctoral scientists from underrepresented backgrounds. US citizens, permanent residents, or visa holders. Any research focus.",
-      "deadline": "Feb, Jun, Oct cycles (standard NIH; check current PA at grants.nih.gov)",
-      "deadline_type": "ok",
-      "loi_required": "no",
-      "url": "https://www.nigms.nih.gov/training/careerdev/pages/mosaic.aspx",
-      "citizenship": "open",
-      "specialty_restricted": false
-    },
-    {
-      "id": "nih-diversity-supplement",
-      "title": "NIH Research Supplements to Promote Diversity",
-      "org": "National Institutes of Health",
-      "org_abbrev": "NIH",
-      "category": "Diversity & Inclusion",
-      "amount_min": 30000,
-      "amount_max": 50000,
-      "amount_label": "$30,000–$50,000/year (added to existing R01)",
-      "duration": "1–3 years",
-      "stages": [
-        "resident",
-        "fellow",
-        "postdoc",
-        "early-faculty"
-      ],
-      "stage_notes": "Supplement to an existing NIH parent grant; the PI sponsors a diverse trainee.",
-      "topics": [
-        "diversity",
-        "nih"
-      ],
-      "topic_tags": [
-        "NIH Diversity Supplement",
-        "Mentored Award",
-        "Underrepresented Investigators"
-      ],
-      "eligibility": "Individuals from underrepresented groups joining an existing NIH-funded research program. PI must have active R01 or equivalent.",
-      "deadline": "Anytime (supplement to existing grant)",
-      "deadline_type": "ok",
-      "loi_required": "no",
-      "url": "https://www.nigms.nih.gov/training/careerdev/pages/diversity-supplements.aspx",
-      "citizenship": "open",
-      "specialty_restricted": false
-    },
-    {
       "id": "orwh-bircwh-k12",
       "title": "NIH ORWH/BIRCWH K12 Award (Women's Health Research)",
       "org": "NIH Office of Research on Women's Health / Building Interdisciplinary Research Careers in Women's Health",
@@ -4698,7 +4533,7 @@
       "deadline": "Feb 16, Jun 16, Oct 16 annually",
       "deadline_type": "ok",
       "loi_required": "no",
-      "url": "https://www.niehs.nih.gov/funding/grants/index.cfm",
+      "url": "https://www.niehs.nih.gov/grants-and-contracts",
       "citizenship": "open",
       "specialty_restricted": false
     },
@@ -4765,7 +4600,7 @@
       "deadline": "Check RWJF.org for current open calls",
       "deadline_type": "unknown",
       "loi_required": "yes",
-      "url": "https://www.rwjf.org/en/grants/active-programs.html",
+      "url": "https://www.rwjf.org/en/grants/active-funding-opportunities.html",
       "citizenship": "us-only",
       "specialty_restricted": false
     },
@@ -4800,37 +4635,6 @@
       "loi_required": "no",
       "url": "https://site.thoracic.org/research/the-ats-research-program/grants-and-eligibility",
       "citizenship": "open",
-      "specialty_restricted": false
-    },
-    {
-      "id": "epa-star-fellowship",
-      "title": "EPA Science to Achieve Results (STAR) Graduate Fellowship",
-      "org": "U.S. Environmental Protection Agency",
-      "org_abbrev": "EPA",
-      "category": "Environmental Health & Sustainability",
-      "amount_min": 44000,
-      "amount_max": 44000,
-      "amount_label": "Up to $44,000/year",
-      "duration": "Up to 3 years",
-      "stages": [
-        "graduate"
-      ],
-      "stage_notes": "Graduate student fellowship; for PhD students studying environmental science or health.",
-      "topics": [
-        "environment",
-        "sustainability"
-      ],
-      "topic_tags": [
-        "Environmental Science",
-        "Environmental Health",
-        "Graduate Fellowship"
-      ],
-      "eligibility": "US citizens/permanent residents in full-time PhD programs in environmental science, engineering, or health.",
-      "deadline": "Check EPA STAR website; varies by year",
-      "deadline_type": "unknown",
-      "loi_required": "no",
-      "url": "https://www.epa.gov/research-grants/science-achieve-results-star-fellowship-program",
-      "citizenship": "us-only",
       "specialty_restricted": false
     },
     {
@@ -5100,7 +4904,7 @@
       "deadline": "Standard NIH cycles (Feb, Jun, Oct); check specific PA",
       "deadline_type": "ok",
       "loi_required": "no",
-      "url": "https://www.nimhd.nih.gov/programs/extramural/",
+      "url": "https://www.nimhd.nih.gov/funding/",
       "citizenship": "open",
       "specialty_restricted": false
     },
@@ -5167,7 +4971,7 @@
       "deadline": "Check RWJF website for current cycle",
       "deadline_type": "unknown",
       "loi_required": "yes",
-      "url": "https://www.rwjf.org/en/grants/active-programs.html",
+      "url": "https://www.rwjf.org/en/grants/active-funding-opportunities.html",
       "citizenship": "us-only",
       "specialty_restricted": false
     },
@@ -5517,8 +5321,8 @@
         "Quality of Care"
       ],
       "eligibility": "PI must be at a US institution; cannot be affiliated with ABMS or any ABMS Member Board. Open to health systems, universities, or organizations whose mission aligns with ABMS. 4 awards per cycle.",
-      "deadline": "Next cycle TBD (2026–2028 cycle closed May 1, 2026; check abms.org for next RFP)",
-      "deadline_type": "unknown",
+      "deadline": "Opens mid-November 2026; LOI Jan 29, 2027; full proposal May 3, 2027",
+      "deadline_type": "ok",
       "loi_required": "yes",
       "url": "https://www.abms.org/research-and-education-foundation/grants/",
       "citizenship": "check",

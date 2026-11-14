@@ -105,6 +105,8 @@ def check_url(url, timeout=20):
             return 'broken', f'HTTP {exc.code}'
         except (urllib.error.URLError, TimeoutError, ConnectionError, ssl.SSLError, ValueError) as exc:
             reason = getattr(exc, 'reason', exc)
+            if isinstance(reason, ssl.SSLCertVerificationError):
+                return 'blocked', 'certificate chain problem (usually opens fine in a browser)'
             if method == 'HEAD':
                 continue
             return 'broken', str(reason)[:100]
