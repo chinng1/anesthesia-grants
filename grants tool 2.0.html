@@ -416,7 +416,7 @@ select {
 
 <header>
   <h1>Research Grant Finder</h1>
-  <p>Funding for anesthesia trainees and early-career researchers · <span id="totalCount">—</span> grants · Updated May 2026</p>
+  <p>Funding for anesthesia trainees and early-career researchers · <span id="totalCount">—</span> grants · Updated <span id="updatedDate">—</span></p>
 </header>
 
 <div class="level-nav" id="levelNav">
@@ -549,6 +549,9 @@ const db = {"_meta":{"title":"Early Career Medical Research Grants Database","de
 (function init() {
   allGrants = db.grants || [];
   document.getElementById("totalCount").textContent = allGrants.length;
+  const upd = new Date((db._meta && db._meta.updated || "") + "T12:00:00");
+  document.getElementById("updatedDate").textContent = isNaN(upd) ? "—" :
+    upd.toLocaleDateString("en-US", { month: "long", year: "numeric" });
 
   const focusSel = document.getElementById("focusFilter");
   (db.categories || []).sort().forEach(cat => {
