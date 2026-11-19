@@ -2,9 +2,9 @@
   "_meta": {
     "title": "Early Career Medical Research Grants Database",
     "description": "Grant opportunities for medical residents, fellows, postdocs, and early faculty. Broad coverage across specialties with emphasis on anesthesia.",
-    "version": "2.3.0",
-    "updated": "2026-11-13",
-    "notes": "Deadlines and amounts change annually — verify with each funder before applying. v2.0: removed non-US programs; added UCSF RAP grants. v2.1.0 (2026-05-26): added ABA/FAER REG, FAER TIG, PhRMA Faculty Starter, Doris Duke CSDA, Parker B. Francis. v2.2.0 (2026-05-26): renamed 'Graduate Medical Education' → 'Medical Education Research'; added ABMS REF Grant, SAEM ERTG, AAMC GEA National Grant. v2.3.0 (2026-11-13): monthly check fixes: 14 URLs updated (Lilly IIR, FAER RFG/MRTG, Merck MISP, Takeda, UCSF Catalyst, NIBIB, etc.); 12 passed deadlines updated to next cycle; 10 upcoming deadlines marked soon; removed 6 discontinued: epa-star-fellowship (EPA ended STAR fellowships in 2015); asf-postdoc (no longer in ASF current funding list); aahpm-research-grant (AAHPM no longer offers its own research grant); ge-healthcare-iir (no public investigator-initiated program page); nih-mosaic-k99 (NIGMS MOSAIC pages removed; program not current); nih-diversity-supplement (NIGMS page removed; PA-23-189 expired May 2026).",
+    "version": "2.4.0",
+    "updated": "2026-11-19",
+    "notes": "Deadlines and amounts change annually — verify with each funder before applying. v2.0: removed non-US programs; added UCSF RAP grants. v2.1.0 (2026-05-26): added ABA/FAER REG, FAER TIG, PhRMA Faculty Starter, Doris Duke CSDA, Parker B. Francis. v2.2.0 (2026-05-26): renamed 'Graduate Medical Education' → 'Medical Education Research'; added ABMS REF Grant, SAEM ERTG, AAMC GEA National Grant. v2.3.0 (2026-11-13): monthly check fixes: 14 URLs updated (Lilly IIR, FAER RFG/MRTG, Merck MISP, Takeda, UCSF Catalyst, NIBIB, etc.); 12 passed deadlines updated to next cycle; 10 upcoming deadlines marked soon; removed 6 discontinued: epa-star-fellowship (EPA ended STAR fellowships in 2015); asf-postdoc (no longer in ASF current funding list); aahpm-research-grant (AAHPM no longer offers its own research grant); ge-healthcare-iir (no public investigator-initiated program page); nih-mosaic-k99 (NIGMS MOSAIC pages removed; program not current); nih-diversity-supplement (NIGMS page removed; PA-23-189 expired May 2026). v2.4.0 (2026-11-19): added Shock Society Faculty Research Award ($83K/1yr, early faculty, trauma/shock/sepsis).",
     "schema_version": "1"
   },
   "schema": {
@@ -3656,6 +3656,39 @@
       "loi_required": "no",
       "url": "https://www.aast.org/professional-development/scholarships.html",
       "citizenship": "us-only",
+      "specialty_restricted": false
+    },
+    {
+      "id": "shock-society-faculty-research-award",
+      "title": "Shock Society Faculty Research Award",
+      "org": "Shock Society",
+      "org_abbrev": "Shock Society",
+      "category": "Trauma",
+      "amount_min": 83000,
+      "amount_max": 83000,
+      "amount_label": "$83,000",
+      "duration": "1 year",
+      "stages": [
+        "early-faculty"
+      ],
+      "stage_notes": "Within 10 years of terminal doctoral degree and no more than 4 years since first faculty appointment; at least 50% effort on research",
+      "topics": [
+        "trauma",
+        "critical-care",
+        "translational-research"
+      ],
+      "topic_tags": [
+        "Shock",
+        "Sepsis",
+        "Trauma",
+        "Translational Research"
+      ],
+      "eligibility": "Early-career faculty (MD, PhD, DO, or equivalent doctorate) doing trauma, shock, or sepsis research at a US institution. Must be a member of the Shock Society (or an IFSS member society) and have a mentoring team that includes an active Shock Society member. Ineligible if a current or former PI on an NIH R01, K01, K08, K23, P01 sub-project, or P50 (or VA/DoD equivalent), or with more than $100,000/year in external funding. $80,000 research funds paid in stages (50% / 40% after progress report / 10% after presenting results) plus $3,000 for Shock Society meeting travel; awardee presents at later Shock Society meetings.",
+      "deadline": "Early March annually (2026 deadline was March 6; 2027 date not yet posted)",
+      "deadline_type": "ok",
+      "loi_required": "no",
+      "url": "https://www.shocksociety.org/faculty-research-award",
+      "citizenship": "check",
       "specialty_restricted": false
     },
     {

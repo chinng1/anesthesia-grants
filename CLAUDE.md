@@ -8,7 +8,7 @@ A standalone single-file HTML grant-finder tool for anesthesia trainees and earl
 
 | File | Purpose |
 |---|---|
-| `grants.json` | Source-of-truth database (164 grants, 28 categories, v2.3.0) |
+| `grants.json` | Source-of-truth database (165 grants, 28 categories, v2.4.0) |
 | `grants tool 2.0.html` | Standalone tool with JSON embedded inline; current working file |
 
 ## HTML Layout
@@ -102,7 +102,7 @@ Category filter and topic filter are auto-populated from JSON at runtime.
 
 ## Coverage Notes
 
-- **Anesthesia subspecialties:** trauma (EAST, AAST), OB/obstetric anesthesia (SOAP/FAER, SMFM), preeclampsia, malignant hyperthermia, cardiac/congenital, global health/surgery, regional anesthesia, pain medicine (ASRA ×3, IASP ×2, Rita Allen/USASP), sleep medicine, critical care (SCCM ×2, SOCCA, ESICM), sepsis, delirium/POCD (NIDUS, ADS), palliative care, neuroanesthesia (SNACC, NCS)
+- **Anesthesia subspecialties:** trauma (EAST, AAST, Shock Society), OB/obstetric anesthesia (SOAP/FAER, SMFM), preeclampsia, malignant hyperthermia, cardiac/congenital, global health/surgery, regional anesthesia, pain medicine (ASRA ×3, IASP ×2, Rita Allen/USASP), sleep medicine, critical care (SCCM ×2, SOCCA, ESICM), sepsis, delirium/POCD (NIDUS, ADS), palliative care, neuroanesthesia (SNACC, NCS)
 - **Diversity & equity:** RWJF Harold Amos, AAMC Nickens, Ford Foundation, NMA, NHMA, NIH MOSAIC K99/R00, NIH Diversity Supplement, NIH ORWH/BIRCWH K12
 - **New categories (v1.7+):** Environmental Health & Sustainability (NIEHS, HEI, Wellcome, EPA STAR), Physician Wellness & Mental Health (AFSP, ACGME Back to Bedside, NIMH, AMA Foundation), Health Services & Disparities (AHRQ ×2, NIMHD ×2, Greenwall Bioethics, Commonwealth Fund Harkness, SGIM, AHA)
 - **Deadlines:** flag `deadline_type: "soon"` for anything <6 weeks out; `"unknown"` if unverifiable
@@ -129,4 +129,5 @@ Live site: https://chinng1.github.io/anesthesia-grants/ (repo `chinng1/anesthesi
 
 `.github/workflows/monthly-check.yml` runs `check_grants.py` on the 1st of each month and opens a GitHub issue with the report: broken links (404s, dead domains), links that block bots (usually fine), deadlines that have passed, deadlines under 6 weeks that aren't marked `"soon"`, and `"soon"` entries that no longer are. It never edits `grants.json`; work through the issue, fix the entries, bump `_meta.version`/`updated`, push, and close the issue. Run it locally with `python3 check_grants.py` (add `--no-links` for a fast deadline-only pass). Run it on demand: `gh workflow run monthly-check.yml`.
 - **v2.3.0 (2026-11-13):** First monthly-check cleanup. Updated 14 moved URLs, rolled 12 passed deadlines to their next cycle, marked upcoming ones "soon". Removed 6 discontinued: EPA STAR fellowship, ASF postdoc fellowship, AAHPM research grant, GE HealthCare IIR, NIH MOSAIC K99/R00, NIH diversity supplements (NIGMS pages gone, PA-23-189 expired). Re-verify before restoring any of them.
+- **v2.4.0 (2026-11-19):** Added Shock Society Faculty Research Award (Trauma; $83K = $80K research + $3K meeting travel; early faculty only; Shock Society membership required). 2027 deadline not yet posted; the 2026 deadline was March 6.
 - Write deadline text so the checker reads it correctly: only put real *due dates* as "Mon D[, YYYY]"; describe opening dates loosely ("opens in December") or the check will treat them as deadlines.
